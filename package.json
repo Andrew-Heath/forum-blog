@@ -1,4 +1,36 @@
 {
+  "name": "forum-blog",
+  "version": "1.0.0",
+  "description": "A simple forum for multi-user discussion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-Heath/forum-blog.git"
+  },
+  "keywords": [
+    "forum",
+    "blog",
+    "react",
+    "redux",
+    "router",
+    "webpack"
+  ],
+  "author": "Andrew Heath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew-Heath/forum-blog/issues"
+  },
+  "homepage": "https://github.com/Andrew-Heath/forum-blog#readme",
+  "scripts": {
+    "build": "gulp",
+    "serve": "gulp serve",
+    "serve:dist": "gulp serve:dist",
+    "test": "gulp test",
+    "test:auto": "gulp test:auto"
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -53,13 +85,6 @@
     "babel-core": "^6.23.1",
     "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.22.0"
-  },
-  "scripts": {
-    "build": "gulp",
-    "serve": "gulp serve",
-    "serve:dist": "gulp serve:dist",
-    "test": "gulp test",
-    "test:auto": "gulp test:auto"
   },
   "eslintConfig": {
     "root": true,

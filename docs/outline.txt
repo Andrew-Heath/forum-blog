@@ -12,22 +12,47 @@ Forum Architechture
     - Login Page
       - Username
       - Password
+      - Forgotten Password Page
+        - Email link to special password reset page
+        - Enter new password
     - Registration Page
       - Username
       - Password
+      - Email
     - Thread List
       - Thread Name
       - Create Thread Page
         - Thread Submission Box
+          - Post Submission box w/ Title field
     - Thread Page
-      - Thread Post
+      - Post Box
+        - Author Name
+        - Edit button
+        - Quote button
       - Submission Box
+        - Text entry field
+        - submit button
+        - preview button
+        - preview box
+        - HTML or BBC
+      - User Profile
+        - Username
+        - Post Count
+        - Thread Creation Count
+        - Friends
+        - About field
+        - User Tools
+          - Change Password
+          - Change Username
+          - Change Email
+          - Change About field
   - Forum Footer
     - links to other informational pages/local time
 
 Backend Layout
 Databases
   Users
+    - Email
     - Username
     - Salt
     - Salt-Hash
