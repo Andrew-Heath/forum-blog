@@ -1,5 +1,4 @@
 Things to do:
-  Check out Yeoman
   Check out Udemy
   Check out free AWS stuff
 
@@ -25,7 +24,6 @@ Forum Architechture
       - Submission Box
   - Forum Footer
     - links to other informational pages/local time
-*Put this on Trello
 
 Backend Layout
 Databases
