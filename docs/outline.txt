@@ -1,0 +1,43 @@
+Things to do:
+  Check out Yeoman
+  Check out Udemy
+  Check out free AWS stuff
+
+Forum Architechture
+- Forum Window Frame
+  - Forum Header
+    - Webpage name
+    - Login/Register button
+    - Username/Logout button
+  - Forum Context Frame
+    - Login Page
+      - Username
+      - Password
+    - Registration Page
+      - Username
+      - Password
+    - Thread List
+      - Thread Name
+      - Create Thread Page
+        - Thread Submission Box
+    - Thread Page
+      - Thread Post
+      - Submission Box
+  - Forum Footer
+    - links to other informational pages/local time
+*Put this on Trello
+
+Backend Layout
+Databases
+  Users
+    - Username
+    - Salt
+    - Salt-Hash
+    - Join Date
+  Threads
+    - Thread Title
+    - Author Ref
+  Posts
+    - Post Title
+    - Author Ref
+    - Thread Ref
