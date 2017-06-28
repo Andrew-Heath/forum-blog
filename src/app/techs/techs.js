@@ -3,22 +3,6 @@ import axios from 'axios';
 
 import {Tech} from './tech';
 
-const styles = {
-  container: {
-    margin: '1rem'
-  },
-  h2: {
-    fontWeight: 300,
-    fontSize: '1.5rem'
-  },
-  techs: {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around'
-  }
-};
-
 export class Techs extends Component {
   constructor() {
     super();
@@ -35,11 +19,11 @@ export class Techs extends Component {
 
   render() {
     return (
-      <div style={styles.container}>
-        <h2 style={styles.h2}>
+      <div className="container">
+        <h2 className="techs-title">
           Cooked with all these awesome technologies:
         </h2>
-        <div style={styles.techs}>
+        <div className="techs-list">
           {this.state.techs.map((tech, i) => (
             <Tech key={i} tech={tech}/>
           ))}
