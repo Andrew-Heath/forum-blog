@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 // import {PropTypes} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import Header from '../components/Header';
 import MainSection from '../components/MainSection';
 import * as TodoActions from '../actions/index';
 
@@ -11,7 +10,7 @@ class App extends Component {
     // const {todos, actions} = this.props;
     return (
       <div>
-        <Header/>
+        This is the main app
         <MainSection todos={[]} actions={{}}/>
       </div>
     );
