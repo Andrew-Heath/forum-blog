@@ -23,7 +23,6 @@ const store = configureStore(middleware, routerReducer);
 
 ReactDOM.render(
   <div>
-    This should load if everything works
     <Provider store={store}>
       <ConnectedRouter history={history}>
         <div>

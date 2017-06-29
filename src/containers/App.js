@@ -2,16 +2,15 @@ import React, {Component} from 'react';
 // import {PropTypes} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import MainSection from '../components/MainSection';
-import * as TodoActions from '../actions/index';
+import ThreadFrame from '../components/ThreadFrame';
+import * as ThreadActions from '../actions/index';
 
 class App extends Component {
   render() {
-    // const {todos, actions} = this.props;
     return (
       <div>
         This is the main app
-        <MainSection todos={[]} actions={{}}/>
+        <ThreadFrame/>
       </div>
     );
   }
@@ -24,13 +23,13 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    todos: state.todos
+    things: state
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(TodoActions, dispatch)
+    actions: bindActionCreators(ThreadActions, dispatch)
   };
 }
 
