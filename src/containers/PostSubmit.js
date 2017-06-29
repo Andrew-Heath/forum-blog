@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 // import {PropTypes} from 'react';
 
-class Header extends Component {
+class PostSubmit extends Component {
   render() {
     return (
-      <header className="header">
-        <h1>test</h1>
-      </header>
+      <div>
+        This is the Post Submission Box
+      </div>
     );
   }
 }
@@ -16,4 +16,4 @@ class Header extends Component {
 //   addTodo: PropTypes.func.isRequired
 // };
 
-export default Header;
+export default PostSubmit;

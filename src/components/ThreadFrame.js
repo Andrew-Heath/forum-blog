@@ -1,9 +1,15 @@
 import React, {Component} from 'react';
+import PostList from '../containers/PostList';
+import PostSubmit from '../containers/PostSubmit';
 
 class ThreadFrame extends Component {
   render() {
     return (
-      <p>This is the Thread/Chat frame</p>
+      <div>
+        This is the Thread/Chat frame
+        <PostList/>
+        <PostSubmit/>
+      </div>
     );
   }
 }

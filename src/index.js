@@ -3,9 +3,9 @@ import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import App from './containers/App';
+import ThreadFrame from './components/ThreadFrame';
 import configureStore from './store/configureStore';
-import Header from './components/Header';
+import Header from './containers/Header';
 import Footer from './components/Footer';
 
 // Router stuff
@@ -27,7 +27,7 @@ ReactDOM.render(
       <ConnectedRouter history={history}>
         <div>
           <Header/>
-          <Route exact path="/" component={App}/>
+          <Route exact path="/" component={ThreadFrame}/>
           <Footer/>
         </div>
       </ConnectedRouter>
