@@ -27,7 +27,9 @@ ReactDOM.render(
       <ConnectedRouter history={history}>
         <div>
           <Header/>
-          <Route exact path="/" component={ThreadFrame}/>
+          <div id="app-body">
+            <Route exact path="/" component={ThreadFrame}/>
+          </div>
           <Footer/>
         </div>
       </ConnectedRouter>

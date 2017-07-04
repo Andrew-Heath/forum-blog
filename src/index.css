@@ -25,8 +25,6 @@ body {
   line-height: 1.4em;
   background: #f5f5f5;
   color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,17 +65,18 @@ body {
   color: #e6e6e6;
 }
 
-.todoapp h1 {
-  position: absolute;
-  top: -155px;
+Header {
+  position: fixed;
+  background-color: #f5f5f5;
+  top: 0;
   width: 100%;
-  font-size: 100px;
+  font-size: 24px;
   font-weight: 100;
-  text-align: center;
-  color: rgba(175, 47, 47, 0.15);
+  color: #AF2F2F;
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
+  z-index: 1;
 }
 
 .new-todo,
@@ -253,7 +252,10 @@ body {
   margin-bottom: -1px;
 }
 
-.footer {
+Footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   color: #777;
   padding: 10px 15px;
   height: 20px;
@@ -261,7 +263,7 @@ body {
   border-top: 1px solid #e6e6e6;
 }
 
-.footer:before {
+Footer:before {
   content: '';
   position: absolute;
   right: 0;
@@ -373,4 +375,10 @@ html .clear-completed:active {
   .filters {
     bottom: 10px;
   }
+}
+
+#app-body {
+  position: relative;
+  top: 84px;
+  border: 1px solid #f00;
 }
