@@ -5,7 +5,7 @@ import Post from '../components/Post';
 class PostList extends Component {
   render() {
     return (
-      <div>
+      <div className="post-list">
         This is the Post List
         <Post/>
       </div>

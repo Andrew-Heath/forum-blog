@@ -4,8 +4,10 @@ import React, {Component} from 'react';
 class PostSubmit extends Component {
   render() {
     return (
-      <div>
-        This is the Post Submission Box
+      <div className="post-submit">
+        This is the Post Submission Box<br/>
+        <textarea className="input-box" placeholder="Write your post here."/>
+        <button className="submit">Submit Post</button>
       </div>
     );
   }

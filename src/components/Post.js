@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class Post extends Component {
   render() {
     return (
-      <div>
+      <div className="post">
         This is a Post
       </div>
     );

@@ -5,7 +5,7 @@ import PostSubmit from '../containers/PostSubmit';
 class ThreadFrame extends Component {
   render() {
     return (
-      <div>
+      <div className="todo-list">
         This is the Thread/Chat frame
         <PostList/>
         <PostSubmit/>
