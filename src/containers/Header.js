@@ -4,8 +4,10 @@ import React, {Component} from 'react';
 class Header extends Component {
   render() {
     return (
-      <header className="header">
-        <h1>This is the Header</h1>
+      <header>
+        <div className="title">Forum</div>
+        <div className="subtitle">A place to post whatever.</div>
+        <div className="user-tools">Username: <input type="text" className="username-input" placeholder="Username"/></div>
       </header>
     );
   }
