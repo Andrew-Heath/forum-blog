@@ -59,6 +59,6 @@ export function updateUsername(uname = null) {
   uname = parseName(uname);
   return {
     type: UPDATE_NAME,
-    payload: uname
+    username: uname
   };
 }
