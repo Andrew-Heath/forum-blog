@@ -5,7 +5,7 @@ class Post extends Component {
   render() {
     return (
       <div className="post">
-        This is a Post
+        <span className="username"/><span className="post-body"/>
       </div>
     );
   }
