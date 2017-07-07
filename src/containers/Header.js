@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as Actions from '../actions';
 // import {PropTypes} from 'react';
 
-class Header extends React.Component {
+class Header extends Component {
   constructor(props) {
     super(props);
 
