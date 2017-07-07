@@ -4,15 +4,18 @@ const initialState = {
   postList: [
     {
       username: 'user1',
-      body: 'This is user1\'s first post.'
+      body: 'This is user1\'s first post.',
+      postID: 0
     },
     {
       username: 'user2',
-      body: 'This is user2\'s first post.'
+      body: 'This is user2\'s first post.',
+      postID: 1
     },
     {
       username: 'user1',
-      body: 'This is user1\'s second post.'
+      body: 'This is user1\'s second post.',
+      postID: 2
     }
   ]
 };
