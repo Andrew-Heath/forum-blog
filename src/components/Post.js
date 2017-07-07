@@ -5,7 +5,7 @@ class Post extends Component {
   render() {
     return (
       <div className="post">
-        <span className="username"/><span className="post-body"/>
+        <span className="username">{this.props.username}: </span><span className="post-body">{this.props.body}</span>
       </div>
     );
   }

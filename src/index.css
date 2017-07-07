@@ -187,6 +187,10 @@ header {
   border: 1px solid #f00;
 }
 
+.username {
+  font-weight: bold;
+}
+
 /*
   Hack to remove background from Mobile Safari.
   Can't use it globally since it destroys checkboxes in Firefox
