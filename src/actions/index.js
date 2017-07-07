@@ -33,7 +33,7 @@ export function sentPost(post = null) {
   sendPost(post);
 
   return {
-    type: SUBMIT_POST
+    type: types.SUBMIT_POST
   };
 }
 
@@ -44,8 +44,10 @@ export function displayPost(posts = null) {
   }
   // take the post and add it to the post list
   return {
-    type: UPDATE_POSTS,
-    payload: posts
+    type: types.UPDATE_POSTS,
+    payload: {
+      posts
+    }
   };
 }
 
@@ -58,7 +60,9 @@ export function updateUsername(uname = null) {
   // change the username for other components to reference
   uname = parseName(uname);
   return {
-    type: UPDATE_NAME,
-    username: uname
+    type: types.UPDATE_NAME,
+    payload: {
+      username: uname
+    }
   };
 }

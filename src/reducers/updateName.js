@@ -1,15 +1,17 @@
 import {UPDATE_NAME} from '../constants/ActionTypes';
 
 const initialState = {
-  username: null
+  username: 'default'
 };
 
 export default function updateUsername(state = initialState, action) {
+  console.log('state in reducer ' + state.username);
+  console.log('in reducer ' + Object.keys(action));
   switch (action.type) {
-    case ADD_TODO:
+    case UPDATE_NAME:
       return {
-        ...state,
-        username: action.username
+        state,
+        username: action.payload
       };
 
     default:

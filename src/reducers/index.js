@@ -1,9 +1,9 @@
 import {combineReducers, applyMiddleware} from 'redux';
-import todos from './todos';
+import updateUsername from './updateName';
 
 const rootReducer = (middleware, routerReducer) => {
   return combineReducers({
-    todos,
+    updateUsername,
     router: routerReducer
   }, applyMiddleware(middleware));
 };
